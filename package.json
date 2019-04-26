@@ -4,12 +4,18 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
     "mongo": "^0.1.0",
     "mongoose": "^5.5.2",
+    "morgan": "^1.9.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "2.1.8"
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "2.1.8",
+    "spectre.css": "^0.5.8"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -25,5 +31,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
 }

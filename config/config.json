@@ -1,0 +1,22 @@
+{
+  "development": {
+    "username": "root",
+    "password": "aKt121379",
+    "database": "taskdb",
+    "port": 3306,
+    "host": "localhost",
+    "dialect": "mongo"
+  },
+  "test": {
+    "username": "root",
+    "password": "aKt121379",
+    "database": "testdb",
+    "host": "localhost",
+    "dialect": "mongo",
+    "logging": false
+  },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mongo"
+  }
+}
